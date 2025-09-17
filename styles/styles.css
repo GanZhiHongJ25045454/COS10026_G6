@@ -742,7 +742,11 @@ aside { width: 100%; }
 @media (min-width: 992px) {
   aside { position: sticky; top: 16px; }  /* stays visible while scrolling */
 }
-aside h2 { margin-bottom: 10px; }
+aside h2 { 
+  margin-bottom: 10px;
+  color: #e7f7ff;
+  font-family: "manrope", sans-serif;
+}
 aside section { margin-bottom: 16px; }
 
 

@@ -1115,23 +1115,21 @@ form input[type="reset"]:hover {
     text-align: center;
 }
 
-/* Interests table */
+/* Interests Table */
 .about-interests table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin: 20px 0 30px 0;
 }
+
 .about-interests caption {
-  font-weight: bold;
+  font-family: "manrope", sans-serif;
+  font-weight: 700;
   margin-bottom: 8px;
   color: #5DC3FF;
   text-align: left;
 }
-.about-interests caption{
-  font-family: "manrope", sans-serif;
-  color: #fff;
-}
+
 .about-interests th,
 .about-interests td {
   font-family: "manrope", sans-serif;
@@ -1146,15 +1144,66 @@ form input[type="reset"]:hover {
   color: #fff;
   font-weight: 600;
 }
+
 .about-interests tr:nth-child(even) {
   background: #111;
 }
 
-hr{
-    border: 1px solid #fff;
-    width: 40%;
+.about-interests tr:hover td {
+  background: #222; /* matches timetable hover tone */
 }
 
+/* Divider */
+hr {
+  border: 1px solid #fff;
+  width: 40%;
+  margin: 2rem auto;
+}
 
+/* Timetable */
+.about-timetable {
+  margin: 2rem auto;
+  max-width: 980px;
+  padding: 0 1rem;
+}
 
+.about-timetable table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
+#timetable-title {
+  font-family: "manrope", sans-serif;
+  color: #5DC3FF;
+}
+
+.about-timetable caption {
+  font-family: "manrope", sans-serif;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  color: #5DC3FF;
+  text-align: left;
+}
+
+.about-timetable th,
+.about-timetable td {
+  border: 1px solid #5DC3FF;
+  padding: 10px;
+  text-align: left;
+  font-family: "manrope", sans-serif;
+}
+
+.about-timetable th {
+  background: #111;
+  color: #fff;
+  font-weight: 600;
+}
+
+.about-timetable td {
+  background: #222;
+  color: rgb(197,197,197);
+}
+
+.about-timetable tr:hover td {
+  background: #333;
+}
